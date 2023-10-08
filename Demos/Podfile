@@ -1,0 +1,14 @@
+# Uncomment the next line to define a global platform for your project
+
+platform :ios, '13.0'
+
+
+plugin 'cocoapods-binary'
+
+use_frameworks!
+all_binary!
+
+target 'Demos' do
+  # Pods for Demos
+
+end
