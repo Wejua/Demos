@@ -1,0 +1,109 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - DKNightVersion (2.4.3):
+    - DKNightVersion/Core (= 2.4.3)
+    - DKNightVersion/CoreAnimation (= 2.4.3)
+    - DKNightVersion/UIKit (= 2.4.3)
+  - DKNightVersion/Core (2.4.3):
+    - DKNightVersion/Core/DeallocBlockExecutor (= 2.4.3)
+    - DKNightVersion/Core/extobjc (= 2.4.3)
+  - DKNightVersion/Core/DeallocBlockExecutor (2.4.3)
+  - DKNightVersion/Core/extobjc (2.4.3)
+  - DKNightVersion/CoreAnimation (2.4.3):
+    - DKNightVersion/Core
+  - DKNightVersion/UIKit (2.4.3):
+    - DKNightVersion/Core
+  - PINCache (3.0.1-beta.6):
+    - PINCache/Arc-exception-safe (= 3.0.1-beta.6)
+    - PINCache/Core (= 3.0.1-beta.6)
+  - PINCache/Arc-exception-safe (3.0.1-beta.6):
+    - PINCache/Core
+  - PINCache/Core (3.0.1-beta.6):
+    - PINOperation (~> 1.1.0)
+  - PINOperation (1.1.1)
+  - PINRemoteImage/Core (3.0.0-beta.13):
+    - PINOperation
+  - PINRemoteImage/iOS (3.0.0-beta.13):
+    - PINRemoteImage/Core
+  - PINRemoteImage/PINCache (3.0.0-beta.13):
+    - PINCache (= 3.0.1-beta.6)
+    - PINRemoteImage/Core
+  - SVProgressHUD (2.2.5)
+  - TaboolaSDK (1.6.17)
+  - Texture (2.6):
+    - Texture/PINRemoteImage (= 2.6)
+  - Texture/Core (2.6)
+  - Texture/PINRemoteImage (2.6):
+    - PINRemoteImage/iOS (= 3.0.0-beta.13)
+    - PINRemoteImage/PINCache
+    - Texture/Core
+  - YTKNetwork (2.0.4):
+    - AFNetworking (~> 3.0)
+
+DEPENDENCIES:
+  - DKNightVersion (from `https://github.com/Draveness/DKNightVersion.git`)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+  - TaboolaSDK
+  - Texture (from `https://github.com/TextureGroup/Texture.git`)
+  - YTKNetwork (from `https://github.com/yuantiku/YTKNetwork.git`)
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - AFNetworking
+    - PINCache
+    - PINOperation
+    - PINRemoteImage
+    - TaboolaSDK
+
+EXTERNAL SOURCES:
+  DKNightVersion:
+    :git: https://github.com/Draveness/DKNightVersion.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  Texture:
+    :git: https://github.com/TextureGroup/Texture.git
+  YTKNetwork:
+    :git: https://github.com/yuantiku/YTKNetwork.git
+
+CHECKOUT OPTIONS:
+  DKNightVersion:
+    :commit: 55da576553634bbab55f2b642ecad7d2a9840fc4
+    :git: https://github.com/Draveness/DKNightVersion.git
+  SVProgressHUD:
+    :commit: 7f676d51905ede045ca5dcaf82d4ba0d9f96addf
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+  Texture:
+    :commit: df7d2a57373a754a34c3e1548e6fa8fa58a113ca
+    :git: https://github.com/TextureGroup/Texture.git
+  YTKNetwork:
+    :commit: a2ad5de23ca2b965a90df142fe68627919ccb735
+    :git: https://github.com/yuantiku/YTKNetwork.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  DKNightVersion: eaa80cc4014b4bae7d4b535fd87ecc6a3c2767b3
+  PINCache: d195fdba255283f7e9900a55e3cced377f431f9b
+  PINOperation: a6219e6fc9db9c269eb7a7b871ac193bcf400aac
+  PINRemoteImage: d6d51c5d2adda55f1ce30c96e850b6c4ebd2856a
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  TaboolaSDK: 50f73ca7066533f276e0d5c7470023b414a3e03d
+  Texture: e907f0370006ed790b4b82427e3000ce8bd5b0d3
+  YTKNetwork: df8a7a5597bda1664a4efaa7ef871a818a887fe0
+
+PODFILE CHECKSUM: 41ee87d9d3db81309d2fd4db48bf2cc080f8e6ba
+
+COCOAPODS: 1.5.0
