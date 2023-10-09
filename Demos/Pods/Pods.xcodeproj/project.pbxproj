@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2B5F4B082AD3D92300C5FD24 /* practiceZhouWeiJie.xcworkspace in Resources */ = {isa = PBXBuildFile; fileRef = 2B5F4B072AD3D92300C5FD24 /* practiceZhouWeiJie.xcworkspace */; };
 		932501BDAB5DA646EC4B41B8392150BD /* Pods-Demos-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2625CFECBC46D0FC16B22FB1A110FC64 /* Pods-Demos-dummy.m */; };
 		A3E65CA8C0B4A743132D0AF7C58D1193 /* Pods-Demos-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A24E07C4DE744F1AD924536B00EED41 /* Pods-Demos-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		B6BA642DB6A52195A22D8D1E939263B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -27,6 +28,7 @@
 		2625CFECBC46D0FC16B22FB1A110FC64 /* Pods-Demos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demos-dummy.m"; sourceTree = "<group>"; };
 		2A24E07C4DE744F1AD924536B00EED41 /* Pods-Demos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demos-umbrella.h"; sourceTree = "<group>"; };
 		2B5F4AFE2AD3D3ED00C5FD24 /* AutoImageCompression.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoImageCompression.xcodeproj; path = ../SubDemos/AutoImageCompression/AutoImageCompression/AutoImageCompression.xcodeproj; sourceTree = "<group>"; };
+		2B5F4B072AD3D92300C5FD24 /* practiceZhouWeiJie.xcworkspace */ = {isa = PBXFileReference; lastKnownFileType = wrapper.workspace; name = practiceZhouWeiJie.xcworkspace; path = ../SubDemos/weiBo/WJWeiBo/practiceZhouWeiJie.xcworkspace; sourceTree = "<group>"; };
 		30748213A28B1B37843592DD2771087E /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		31AF4F63F62B021BCB7EAC1A256EB618 /* Pods-Demos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demos-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
@@ -93,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2B5F4B072AD3D92300C5FD24 /* practiceZhouWeiJie.xcworkspace */,
 				2B5F4AFE2AD3D3ED00C5FD24 /* AutoImageCompression.xcodeproj */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DC5F472DC80931A5C3296A7F45222193 /* Products */,
@@ -196,6 +199,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B5F4B082AD3D92300C5FD24 /* practiceZhouWeiJie.xcworkspace in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
