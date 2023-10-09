@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		488973D22A0E8E81003F79E0 /* ClipWigetBackgroundApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973D12A0E8E81003F79E0 /* ClipWigetBackgroundApp.swift */; };
+		488973D42A0E8E81003F79E0 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973D32A0E8E81003F79E0 /* ContentView.swift */; };
+		488973D62A0E8E84003F79E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488973D52A0E8E84003F79E0 /* Assets.xcassets */; };
+		488973D92A0E8E84003F79E0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 488973D82A0E8E84003F79E0 /* Preview Assets.xcassets */; };
+		488973E02A0E8EAD003F79E0 /* test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973DF2A0E8EAD003F79E0 /* test.swift */; };
+		488973E22A0E8F4B003F79E0 /* logo3.png in Resources */ = {isa = PBXBuildFile; fileRef = 488973E12A0E8F4B003F79E0 /* logo3.png */; };
+		488973E42A0F3694003F79E0 /* SwiftUIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973E32A0F3694003F79E0 /* SwiftUIView.swift */; };
+		488973E62A0F5538003F79E0 /* ZoomableScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973E52A0F5538003F79E0 /* ZoomableScrollView.swift */; };
+		488973E82A0F59CB003F79E0 /* MagnificationGestureT.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973E72A0F59CB003F79E0 /* MagnificationGestureT.swift */; };
+		488973EA2A0F68CE003F79E0 /* ZoomableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973E92A0F68CE003F79E0 /* ZoomableView.swift */; };
+		488973EC2A0F6956003F79E0 /* ZoomableModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973EB2A0F6956003F79E0 /* ZoomableModifier.swift */; };
+		488973EE2A0F85AF003F79E0 /* DragGestureTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 488973ED2A0F85AF003F79E0 /* DragGestureTest.swift */; };
+		488973F02A0FD2EC003F79E0 /* svip_enable@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 488973EF2A0FD2EB003F79E0 /* svip_enable@3x.png */; };
+		488973F22A0FD315003F79E0 /* launchImage@3x.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 488973F12A0FD315003F79E0 /* launchImage@3x.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		488973CE2A0E8E81003F79E0 /* ClipWigetBackground.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ClipWigetBackground.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		488973D12A0E8E81003F79E0 /* ClipWigetBackgroundApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClipWigetBackgroundApp.swift; sourceTree = "<group>"; };
+		488973D32A0E8E81003F79E0 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		488973D52A0E8E84003F79E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		488973D82A0E8E84003F79E0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		488973DF2A0E8EAD003F79E0 /* test.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = test.swift; sourceTree = "<group>"; };
+		488973E12A0E8F4B003F79E0 /* logo3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = logo3.png; sourceTree = "<group>"; };
+		488973E32A0F3694003F79E0 /* SwiftUIView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUIView.swift; sourceTree = "<group>"; };
+		488973E52A0F5538003F79E0 /* ZoomableScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableScrollView.swift; sourceTree = "<group>"; };
+		488973E72A0F59CB003F79E0 /* MagnificationGestureT.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MagnificationGestureT.swift; sourceTree = "<group>"; };
+		488973E92A0F68CE003F79E0 /* ZoomableView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableView.swift; sourceTree = "<group>"; };
+		488973EB2A0F6956003F79E0 /* ZoomableModifier.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZoomableModifier.swift; sourceTree = "<group>"; };
+		488973ED2A0F85AF003F79E0 /* DragGestureTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragGestureTest.swift; sourceTree = "<group>"; };
+		488973EF2A0FD2EB003F79E0 /* svip_enable@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "svip_enable@3x.png"; sourceTree = "<group>"; };
+		488973F12A0FD315003F79E0 /* launchImage@3x.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "launchImage@3x.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		488973CB2A0E8E81003F79E0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		488973C52A0E8E81003F79E0 = {
+			isa = PBXGroup;
+			children = (
+				488973D02A0E8E81003F79E0 /* ClipWigetBackground */,
+				488973CF2A0E8E81003F79E0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		488973CF2A0E8E81003F79E0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				488973CE2A0E8E81003F79E0 /* ClipWigetBackground.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		488973D02A0E8E81003F79E0 /* ClipWigetBackground */ = {
+			isa = PBXGroup;
+			children = (
+				488973D12A0E8E81003F79E0 /* ClipWigetBackgroundApp.swift */,
+				488973DF2A0E8EAD003F79E0 /* test.swift */,
+				488973E52A0F5538003F79E0 /* ZoomableScrollView.swift */,
+				488973E32A0F3694003F79E0 /* SwiftUIView.swift */,
+				488973E72A0F59CB003F79E0 /* MagnificationGestureT.swift */,
+				488973ED2A0F85AF003F79E0 /* DragGestureTest.swift */,
+				488973E92A0F68CE003F79E0 /* ZoomableView.swift */,
+				488973EB2A0F6956003F79E0 /* ZoomableModifier.swift */,
+				488973F12A0FD315003F79E0 /* launchImage@3x.jpg */,
+				488973EF2A0FD2EB003F79E0 /* svip_enable@3x.png */,
+				488973E12A0E8F4B003F79E0 /* logo3.png */,
+				488973D32A0E8E81003F79E0 /* ContentView.swift */,
+				488973D52A0E8E84003F79E0 /* Assets.xcassets */,
+				488973D72A0E8E84003F79E0 /* Preview Content */,
+			);
+			path = ClipWigetBackground;
+			sourceTree = "<group>";
+		};
+		488973D72A0E8E84003F79E0 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				488973D82A0E8E84003F79E0 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		488973CD2A0E8E81003F79E0 /* ClipWigetBackground */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 488973DC2A0E8E84003F79E0 /* Build configuration list for PBXNativeTarget "ClipWigetBackground" */;
+			buildPhases = (
+				488973CA2A0E8E81003F79E0 /* Sources */,
+				488973CB2A0E8E81003F79E0 /* Frameworks */,
+				488973CC2A0E8E81003F79E0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ClipWigetBackground;
+			productName = ClipWigetBackground;
+			productReference = 488973CE2A0E8E81003F79E0 /* ClipWigetBackground.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		488973C62A0E8E81003F79E0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					488973CD2A0E8E81003F79E0 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = 488973C92A0E8E81003F79E0 /* Build configuration list for PBXProject "ClipWigetBackground" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 488973C52A0E8E81003F79E0;
+			productRefGroup = 488973CF2A0E8E81003F79E0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				488973CD2A0E8E81003F79E0 /* ClipWigetBackground */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		488973CC2A0E8E81003F79E0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488973F02A0FD2EC003F79E0 /* svip_enable@3x.png in Resources */,
+				488973D92A0E8E84003F79E0 /* Preview Assets.xcassets in Resources */,
+				488973E22A0E8F4B003F79E0 /* logo3.png in Resources */,
+				488973D62A0E8E84003F79E0 /* Assets.xcassets in Resources */,
+				488973F22A0FD315003F79E0 /* launchImage@3x.jpg in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		488973CA2A0E8E81003F79E0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				488973E62A0F5538003F79E0 /* ZoomableScrollView.swift in Sources */,
+				488973EE2A0F85AF003F79E0 /* DragGestureTest.swift in Sources */,
+				488973EC2A0F6956003F79E0 /* ZoomableModifier.swift in Sources */,
+				488973D42A0E8E81003F79E0 /* ContentView.swift in Sources */,
+				488973E02A0E8EAD003F79E0 /* test.swift in Sources */,
+				488973E42A0F3694003F79E0 /* SwiftUIView.swift in Sources */,
+				488973D22A0E8E81003F79E0 /* ClipWigetBackgroundApp.swift in Sources */,
+				488973EA2A0F68CE003F79E0 /* ZoomableView.swift in Sources */,
+				488973E82A0F59CB003F79E0 /* MagnificationGestureT.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		488973DA2A0E8E84003F79E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		488973DB2A0E8E84003F79E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		488973DD2A0E8E84003F79E0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClipWigetBackground/Preview Content\"";
+				DEVELOPMENT_TEAM = KVX8FV3VE3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weijie.zhou.com.cn.ClipWigetBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		488973DE2A0E8E84003F79E0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ClipWigetBackground/Preview Content\"";
+				DEVELOPMENT_TEAM = KVX8FV3VE3;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = weijie.zhou.com.cn.ClipWigetBackground;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		488973C92A0E8E81003F79E0 /* Build configuration list for PBXProject "ClipWigetBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488973DA2A0E8E84003F79E0 /* Debug */,
+				488973DB2A0E8E84003F79E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		488973DC2A0E8E84003F79E0 /* Build configuration list for PBXNativeTarget "ClipWigetBackground" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				488973DD2A0E8E84003F79E0 /* Debug */,
+				488973DE2A0E8E84003F79E0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 488973C62A0E8E81003F79E0 /* Project object */;
+}
