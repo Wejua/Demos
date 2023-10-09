@@ -10,5 +10,5 @@ all_binary!
 
 target 'Demos' do
   # Pods for Demos
-  pod 'AutoImageCompression', :path => './SubDemos/AutoImageCompression'
+#  pod 'AutoImageCompression', :path => './SubDemos/AutoImageCompression/AutoImageCompression.podspec', :binary => true
 end

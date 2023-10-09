@@ -1,0 +1,24 @@
+//
+//  PrefixHeader.pch
+//  BuDeJieWJ
+//
+//  Created by WJMac on 2018/1/29.
+//  Copyright © 2018年 陆杰毅. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+//#define WJRandomColor [UIColor colorWithRed:(arc4random()%200+20)/255.0 green:(arc4random()%200+20)/255.0 blue:(arc4random()%200+20)/255.0 alpha:1.0]
+#define insets 11
+#define space 5
+#define SCREENSIZE [UIScreen mainScreen].bounds.size
+#define ViewBackgoundColor [UIColor colorWithRed:240/255.0 green:240/255.0 blue:240/255.0 alpha:1.0]
+
+#import "UIImageView+AFNetworking.h"
+#import "AFNetworking.h"
+#import "UIImageView+ASGif.h"
+#import "FLAnimatedImage.h"
+#endif /* PrefixHeader_pch */

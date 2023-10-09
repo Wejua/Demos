@@ -1,0 +1,11 @@
+platform :ios, '9.0'
+use_frameworks!	
+target 'practiceZhouWeiJie' do
+   pod 'AFNetworking',  :git=> 'https://github.com/AFNetworking/AFNetworking.git'
+   pod 'SDWebImage', :git=> 'https://github.com/rs/SDWebImage.git'
+   pod 'MJExtension', :git => 'https://github.com/CoderMJLee/MJExtension.git'
+   pod 'SVProgressHUD', :git => 'https://github.com/SVProgressHUD/SVProgressHUD.git'
+   pod 'MJRefresh', :git=>'https://github.com/CoderMJLee/MJRefresh.git'
+   pod 'FLAnimatedImage', :git => 'https://github.com/Flipboard/FLAnimatedImage.git'
+   pod 'Masonry',:git=>'https://github.com/SnapKit/Masonry.git'
+end

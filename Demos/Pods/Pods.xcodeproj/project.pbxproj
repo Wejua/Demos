@@ -12,16 +12,27 @@
 		B6BA642DB6A52195A22D8D1E939263B6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		2B5F4B022AD3D3ED00C5FD24 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2B5F4AFE2AD3D3ED00C5FD24 /* AutoImageCompression.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 23D232BF2625B9D8002FD95B;
+			remoteInfo = AutoImageCompression;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		0C60A9B536298197B5B80AA92EE3B2AE /* Pods-Demos-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Demos-acknowledgements.markdown"; sourceTree = "<group>"; };
 		2625CFECBC46D0FC16B22FB1A110FC64 /* Pods-Demos-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Demos-dummy.m"; sourceTree = "<group>"; };
 		2A24E07C4DE744F1AD924536B00EED41 /* Pods-Demos-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Demos-umbrella.h"; sourceTree = "<group>"; };
+		2B5F4AFE2AD3D3ED00C5FD24 /* AutoImageCompression.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AutoImageCompression.xcodeproj; path = ../SubDemos/AutoImageCompression/AutoImageCompression/AutoImageCompression.xcodeproj; sourceTree = "<group>"; };
 		30748213A28B1B37843592DD2771087E /* Pods-Demos.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demos.release.xcconfig"; sourceTree = "<group>"; };
 		31AF4F63F62B021BCB7EAC1A256EB618 /* Pods-Demos-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demos-acknowledgements.plist"; sourceTree = "<group>"; };
 		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		7B37F27DDA048BA0A8910453B4EDDEAC /* Pods-Demos-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Demos-Info.plist"; sourceTree = "<group>"; };
 		89B6BC62CD5CC306DF9CBFDA3AB444D2 /* Pods-Demos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Demos.debug.xcconfig"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C4E3C4A7FD6DE3CC74DFE96F74209502 /* Pods-Demos */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Demos"; path = Pods_Demos.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F69CB110871D5B35FC78084E3C3D0524 /* Pods-Demos.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Demos.modulemap"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -38,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2B5F4AFF2AD3D3ED00C5FD24 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5F4B032AD3D3ED00C5FD24 /* AutoImageCompression.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		574E1DCD544F4F068622E916963D3320 /* Pods-Demos */ = {
 			isa = PBXGroup;
 			children = (
@@ -74,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				2B5F4AFE2AD3D3ED00C5FD24 /* AutoImageCompression.xcodeproj */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
 				DC5F472DC80931A5C3296A7F45222193 /* Products */,
 				5DDC0D2F7565D40294E775F2D0EC0663 /* Targets Support Files */,
@@ -148,12 +168,28 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			productRefGroup = DC5F472DC80931A5C3296A7F45222193 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 2B5F4AFF2AD3D3ED00C5FD24 /* Products */;
+					ProjectRef = 2B5F4AFE2AD3D3ED00C5FD24 /* AutoImageCompression.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BD1B6651DA839C0615371980A379C751 /* Pods-Demos */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		2B5F4B032AD3D3ED00C5FD24 /* AutoImageCompression.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = AutoImageCompression.app;
+			remoteRef = 2B5F4B022AD3D3ED00C5FD24 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		FE3C2CB725D88A5779D457F3AE377F09 /* Resources */ = {

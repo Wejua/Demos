@@ -1,0 +1,85 @@
+PODS:
+  - AFNetworking (3.2.0):
+    - AFNetworking/NSURLSession (= 3.2.0)
+    - AFNetworking/Reachability (= 3.2.0)
+    - AFNetworking/Security (= 3.2.0)
+    - AFNetworking/Serialization (= 3.2.0)
+    - AFNetworking/UIKit (= 3.2.0)
+  - AFNetworking/NSURLSession (3.2.0):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.0)
+  - AFNetworking/Security (3.2.0)
+  - AFNetworking/Serialization (3.2.0)
+  - AFNetworking/UIKit (3.2.0):
+    - AFNetworking/NSURLSession
+  - FLAnimatedImage (1.0.14)
+  - Masonry (1.1.0)
+  - MJExtension (3.0.13)
+  - MJRefresh (3.1.15.4)
+  - SDWebImage (4.3.3):
+    - SDWebImage/Core (= 4.3.3)
+  - SDWebImage/Core (4.3.3)
+  - SVProgressHUD (2.2.5)
+
+DEPENDENCIES:
+  - AFNetworking (from `https://github.com/AFNetworking/AFNetworking.git`)
+  - FLAnimatedImage (from `https://github.com/Flipboard/FLAnimatedImage.git`)
+  - Masonry (from `https://github.com/SnapKit/Masonry.git`)
+  - MJExtension (from `https://github.com/CoderMJLee/MJExtension.git`)
+  - MJRefresh (from `https://github.com/CoderMJLee/MJRefresh.git`)
+  - SDWebImage (from `https://github.com/rs/SDWebImage.git`)
+  - SVProgressHUD (from `https://github.com/SVProgressHUD/SVProgressHUD.git`)
+
+EXTERNAL SOURCES:
+  AFNetworking:
+    :git: https://github.com/AFNetworking/AFNetworking.git
+  FLAnimatedImage:
+    :git: https://github.com/Flipboard/FLAnimatedImage.git
+  Masonry:
+    :git: https://github.com/SnapKit/Masonry.git
+  MJExtension:
+    :git: https://github.com/CoderMJLee/MJExtension.git
+  MJRefresh:
+    :git: https://github.com/CoderMJLee/MJRefresh.git
+  SDWebImage:
+    :git: https://github.com/rs/SDWebImage.git
+  SVProgressHUD:
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+CHECKOUT OPTIONS:
+  AFNetworking:
+    :commit: b3f5f644a43417003cdc289b4bad764e7c778363
+    :git: https://github.com/AFNetworking/AFNetworking.git
+  FLAnimatedImage:
+    :commit: 612910aa78268029bc883cfd3c7e36dd2a1a6215
+    :git: https://github.com/Flipboard/FLAnimatedImage.git
+  Masonry:
+    :commit: 8bd77ea92bbe995e14c454f821200b222e5a8804
+    :git: https://github.com/SnapKit/Masonry.git
+  MJExtension:
+    :commit: 6ecb171646cdb9be5d4ae2ee9a07b67edf1cd8c5
+    :git: https://github.com/CoderMJLee/MJExtension.git
+  MJRefresh:
+    :commit: 34a1aaa930eb728262ec60d2653bba29b8c045f5
+    :git: https://github.com/CoderMJLee/MJRefresh.git
+  SDWebImage:
+    :commit: dc5c974b89509992d6c6e0d0510344fd0e35baa6
+    :git: https://github.com/rs/SDWebImage.git
+  SVProgressHUD:
+    :commit: 61c1f02c2587831cebca094bed6f228ed8c314b0
+    :git: https://github.com/SVProgressHUD/SVProgressHUD.git
+
+SPEC CHECKSUMS:
+  AFNetworking: 8ac6017b94ea105479f7776e5288e48ae9c59bb4
+  FLAnimatedImage: 58084d75cec819869a5ee8c76463df798dbaa906
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MJRefresh: 82e813eebbcbf054e263f0e11fdb3b80a9816a86
+  SDWebImage: de4d90b5bff3571eae7bd16202b1f43135409fa5
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+
+PODFILE CHECKSUM: b572f6f8a7bf560a63e1f5f3e2dad49330108729
+
+COCOAPODS: 1.4.0
