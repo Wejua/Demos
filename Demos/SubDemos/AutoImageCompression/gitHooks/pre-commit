@@ -1,0 +1,38 @@
+#!/bin/sh
+
+#检测是否为最初提交
+if git rev-parse --verify HEAD >/dev/null 2>&1
+then
+    against=HEAD
+else
+    # Initial commit: diff against an empty tree object
+    against=4b825dc642cb6eb9a060e54bf8d69288fbee4904
+fi
+
+# If you want to allow non-ASCII filenames set this variable to true.
+git config hooks.allownonascii true
+
+# Redirect output to stderr.
+exec 1>&2
+
+#获取.git所在目录
+git_path=$(cd "$(dirname "$0")";cd ..;cd ..; pwd)
+#获取当前分支名
+branch=$(git symbolic-ref --short HEAD)
+
+# 得到修改过的代码的文件列表
+git diff --cached --name-only --diff-filter=ACMR -z $against | while read -d $'\0' f; do
+if [[ $f == *".png" || $f == *".jpg" || $f == *".jpeg" ]];then
+    #拼接文件绝对路径
+    path="$(cd "$(dirname "$0")";cd ..;cd ..; pwd)/$f"
+    pattern='/Pods/'
+    pathStr="$path"
+  if [[ ! ($pathStr =~ $pattern) ]]; then
+    #执行压缩脚本
+    ruby "$git_path/gitHooks/imageCompressor.rb" $path $branch
+    git add $f
+  fi
+fi
+
+done
+
