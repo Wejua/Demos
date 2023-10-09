@@ -1,0 +1,26 @@
+PODS:
+  - Charts (4.1.0):
+    - Charts/Core (= 4.1.0)
+  - Charts/Core (4.1.0):
+    - SwiftAlgorithms (~> 1.0)
+  - Masonry (1.1.0)
+  - SwiftAlgorithms (1.0.0)
+
+DEPENDENCIES:
+  - Charts
+  - Masonry
+
+SPEC REPOS:
+  trunk:
+    - Charts
+    - Masonry
+    - SwiftAlgorithms
+
+SPEC CHECKSUMS:
+  Charts: 354f86803d11d9c35de280587fef50d1af063978
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  SwiftAlgorithms: 38dda4731d19027fdeee1125f973111bf3386b53
+
+PODFILE CHECKSUM: 2b4e96547dcd8050b34af0ffbac1c308e0aa6b78
+
+COCOAPODS: 1.11.3
