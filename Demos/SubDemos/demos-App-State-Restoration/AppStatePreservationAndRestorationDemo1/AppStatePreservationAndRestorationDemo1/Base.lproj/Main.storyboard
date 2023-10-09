@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14490.70" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="IiG-jk-Qqo">
+    <device id="retina6_1" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14490.49"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ViewController-->
+        <scene sceneID="oCx-FJ-9Dl">
+            <objects>
+                <viewController storyboardIdentifier="ViewController" title="ViewController" modalTransitionStyle="partialCurl" useStoryboardIdentifierAsRestorationIdentifier="YES" id="IiG-jk-Qqo" customClass="ViewController" customModule="AppStatePreservationAndRestorationDemo1" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" restorationIdentifier="ViewControllerView" id="kSh-vp-SCn">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bRi-Qn-PbB">
+                                <rect key="frame" x="168.5" y="433" width="77" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="kUg-Z2-pVk"/>
+                                    <constraint firstAttribute="height" constant="30" id="xJc-bI-zGL"/>
+                                </constraints>
+                                <state key="normal" title="点击去编辑"/>
+                                <connections>
+                                    <action selector="didTapEditing:" destination="IiG-jk-Qqo" eventType="touchUpInside" id="3Cr-px-IjK"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="iVD-AL-m3M">
+                                <rect key="frame" x="132" y="124" width="150" height="30"/>
+                                <color key="backgroundColor" red="0.94509803920000002" green="0.16862745100000001" blue="0.08235294118" alpha="1" colorSpace="calibratedRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="150" id="gID-xs-Y1w"/>
+                                    <constraint firstAttribute="height" constant="30" id="mTL-ti-nGa"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="iVD-AL-m3M" firstAttribute="top" secondItem="WLY-Ju-yUb" secondAttribute="top" constant="80" id="42y-1q-AZi"/>
+                            <constraint firstItem="iVD-AL-m3M" firstAttribute="centerX" secondItem="kSh-vp-SCn" secondAttribute="centerX" id="REb-e3-xdq"/>
+                            <constraint firstItem="bRi-Qn-PbB" firstAttribute="centerX" secondItem="kSh-vp-SCn" secondAttribute="centerX" id="XXF-9O-jIE"/>
+                            <constraint firstItem="bRi-Qn-PbB" firstAttribute="centerY" secondItem="kSh-vp-SCn" secondAttribute="centerY" id="bZQ-Ya-yBn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="WLY-Ju-yUb"/>
+                    </view>
+                    <connections>
+                        <outlet property="textField" destination="iVD-AL-m3M" id="8fN-L9-Ghr"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="34b-bG-R6X" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-65" y="15"/>
+        </scene>
+    </scenes>
+</document>
